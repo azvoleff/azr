@@ -1,0 +1,11 @@
+Package: azr
+Title: Alex Zvoleff's personal package
+Description: A collection of R scripts mainly for personal use.
+Version: 0.1
+Author: Alex Zvoleff
+Maintainer: Alex Zvoleff <azvoleff@conservation.org>
+Depends:
+    R (>= 3.0.0)
+License: GPL (>= 3)
+Collate:
+    'azr-package.R'
