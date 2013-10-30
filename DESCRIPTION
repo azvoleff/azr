@@ -9,3 +9,5 @@ Depends:
 License: GPL (>= 3)
 Collate:
     'azr-package.R'
+    'sortRprofTime.R'
+    'trackTime.R'
