@@ -6,6 +6,8 @@ Author: Alex Zvoleff
 Maintainer: Alex Zvoleff <azvoleff@conservation.org>
 Depends:
     R (>= 3.0.0)
+Imports:
+    lubridate
 License: GPL (>= 3)
 Collate:
     'azr-package.R'
