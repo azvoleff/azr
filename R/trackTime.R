@@ -8,11 +8,15 @@
 #' started.
 #' @examples
 #' #TODO: Add examples
-trackTime <- function(label='', action='print') {
+trackTime <- function(label='', action='print', email=FALSE) {
     if (action == 'start') {
         assign(paste('trackTime_starttime', label, sep='_'), now(), 
                inherits=TRUE)
-        message('trackTime: Tracking timer reset.')
+        if (label != '') {
+            message(paste0('trackTime: Tracking timer "', label,'" started at ', now()), '.')
+        } else {
+            message(paste0('trackTime: Tracking timer started at ', now()), '.')
+        }
     } else if (action == 'print') {
         startTimeVar <- mget(paste('trackTime_starttime', label, sep='_'), 
                              ifnotfound=list(NULL), inherits=TRUE)

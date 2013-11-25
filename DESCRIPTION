@@ -13,3 +13,6 @@ Collate:
     'azr-package.R'
     'sortRprofTime.R'
     'trackTime.R'
+    'sendEmail.R'
+    'testRasterWriteSpeed.R'
+    'logOutput.R'
